@@ -1,0 +1,2 @@
+# countdown
+GASを使い毎日SLackでカウントダウンをするスクリプト
