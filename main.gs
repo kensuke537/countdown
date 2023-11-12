@@ -9,7 +9,7 @@ function countdown() {
   var days = Math.floor((examDate - today) / (24 * 60 * 60 * 1000));
 
   if (days >= 0) {
-    var message = examName + 'まであと' + days + '日です';
+    var message = `${examName} まであと${days}日です`;
     var url = 'https://slack.com/api/chat.postMessage';
     
     var payload = {
